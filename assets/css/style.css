@@ -1,0 +1,85 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+header {
+    font-family: 'Merriweather', sans-serif;
+}
+
+body {
+    font-family: Arial;
+    font-weight: 300;
+    color: #3a3a3a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+h1,
+h2 {
+    font-family: 'Merriweather', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #3a3a3a;
+}
+
+#logo {
+    float: left;
+    font-size: 200%;
+    margin-left: 30px;
+}
+
+#navigation {
+    font-size: 120%;
+}
+
+#navigation li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#navigation a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#navigation a:hover {
+    text-decoration: underline;
+}
+
+#navigation,
+#logo {
+    line-height: 75px;
+}
+
+.clear-both {
+    clear: both;
+}
+
+#home {
+    padding-top: 20px;
+    size: 800px;
+    height: 250px;
+    padding-top: 20px;
+    background-image: url('../images/khreschatyk.jpg');
+}
+
+#image {
+    height: auto;
+    padding: 10px;
+}
+#about-us{
+    text-align:center;
+    font-size:35px;
+    padding:10px;
+    padding-top:40px;
+    color:white;
+  }
