@@ -20,7 +20,7 @@ body {
     margin: 0;
     padding: 0;
     border: none;
-}
+} 
 
 h1,
 h2 {
@@ -82,4 +82,26 @@ h2 {
     padding:10px;
     padding-top:40px;
     color:white;
+  }
+  #routes-list li{
+    list-style-type:none;
+    color:#3a3a3a;
+  }
+  #routes{
+    padding-left:15px;
+    padding-top:20px;
+    width:100%;
+    padding-right:30px;
+  }
+  #routes-list{
+    font-size:110%;
+    margin-left:0;
+    float:left;
+  }
+  #big-route h2, #big-route li{
+    color:black;
+  }
+  img{
+    height:300px;
+    float:right;
   }
