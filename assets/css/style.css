@@ -94,14 +94,18 @@ h2 {
     padding-right:30px;
   }
   #routes-list{
-    font-size:110%;
+    font-size:130%;
     margin-left:0;
-    float:left;
   }
   #big-route h2, #big-route li{
     color:black;
   }
   img{
-    height:300px;
+    height:350px;
     float:right;
+    padding-right:45px;
+  }
+  #float-left{
+    float:left;
+    width:35%;
   }
