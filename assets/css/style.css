@@ -109,3 +109,74 @@ h2 {
     float:left;
     width:35%;
   }
+  #times{
+    padding-top:10px;
+    text-align:center;
+    width:100%;
+    padding-bottom:10px;
+  }
+  #monday-left{
+    width:33%;
+    background-color:bisque;
+    float:left;
+  }
+  #wednesday-center{
+    width:33%;
+    background-color:lightgreen;
+    display:inline-block;
+  }
+  #friday-right{
+    width:33%;
+    background-color:bisque;
+    float:right;
+  }
+  #signup-form input{
+    border:1px solid #3a3a3a;
+    border-radius:5px;
+  }
+  #signup-form{
+    box-sizing:border-box;
+    background-image:url('../images/vladimir-monument.jpg');
+    min-height:400px;
+    background-size:cover;
+    width:100%;
+    padding-top:10px;
+  }
+  #signup-form h2{
+    text-align:center;
+    color:black;
+    -webkit-text-stroke: 1px black;
+  }
+  form{
+    left:28px;
+    top:50px;
+    margin:20px;
+    max-width:300px;
+    padding:16px;
+  }
+  label{
+    color:black;
+    font-size:26px;
+    -webkit-text-stroke:1px black;
+  }
+  input[type=text], input[type=tel], input[type=email]{
+    padding:15px;
+    margin:15px 0;
+    border:2px solid black;
+    width:100%;
+  }
+  #submit{
+    background-color:white;
+    color:black;
+    padding:16px 16px;
+    border:none;
+    cursor:pointer;
+    width:100%;
+  }
+  #submit:hover{
+    transform:scale(1.1);
+    transition:transform 0.3s;
+  }
+  .white-text{
+    color:white;
+  }
