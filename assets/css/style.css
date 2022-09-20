@@ -180,3 +180,20 @@ h2 {
   .white-text{
     color:white;
   }
+  #contact-us a{
+    text-decoration:none;
+    color:white;
+  }
+  #contact-us a:hover{
+    text-decoration:underline;
+  }
+  #contact-us{
+    text-align:center;
+    background-color:black;
+    width:100%;
+  }
+  #contact-us li{
+    display:inline-block;
+    font-size:20px;
+    margin-left:10px;
+  }
