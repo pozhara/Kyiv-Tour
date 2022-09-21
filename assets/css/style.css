@@ -32,7 +32,7 @@ h2 {
 
 #logo {
     float: left;
-    font-size: 200%;
+    font-size: 4vw;
     margin-left: 30px;
 }
 
@@ -43,7 +43,7 @@ h2 {
 #navigation li {
     float: right;
     list-style-type: none;
-    margin-right: 30px;
+    margin-right: 20px;
 }
 
 #navigation a {
@@ -143,8 +143,8 @@ h2 {
   }
   #signup-form{
     box-sizing:border-box;
-    background-image:url('../images/vladimir-monument.jpg');
-    min-height:400px;
+    background-image:url('../images/podil3.webp');
+    min-height:200px;
     background-size:cover;
     width:100%;
     padding-top:10px;
@@ -235,5 +235,8 @@ h2 {
     #friday-right{
       width:100%;
     }
+    #break{
+      height:10px;
+      width:100%;
+    }
   }
- 
