@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>replit</title>
   <link href="../assets/css/style.css" rel="stylesheet" type="text/css" />
   <script src="https://kit.fontawesome.com/43bd796c99.js" crossorigin="anonymous"></script>
@@ -34,23 +34,27 @@
   </section>
   <div></div>
   <div class="clear-both" id="routes">
+    <!--container-->
     <div id="big-route">
       <div id="float-left">
-      <h2>Route</h2>
-      <ul id="routes-list">
-        <li><i class="fas fa-map-pin"></i> Khreschatyk (Khymera Building, Maidan Nezalezhnosti)</li>
-        <li><i class="fas fa-map-pin"></i> Zoloti Vorota (Golden Gates)</li>
-        <li><i class="fas fa-map-pin"></i> Sophiivskiy Sobor (Sophiivska Cathedral and Volodymirskiy Park)</li>
-        <li><i class="fas fa-map-pin"></i> Andriivska Tserkva(Andriivska Chruch and Andriivskiy Uzviz)</li>
-        <li><i class="fas fa-map-pin"></i> Podil (Museums and monuments)</li>
-        <li><i class="fas fa-map-pin"></i> Tarasa Shevchenka Street</li>
-        <li><i class="fas fa-map-pin"></i> Petrivka</li>
-        <li><i class="fas fa-map-pin"></i> Obolon</li>
-        <li><i class="fas fa-map-pin"></i> Natalka Park, Dnipro river</li>
-      </ul>
+        <!--text-->
+        <h2>Route</h2>
+        <ul id="routes-list">
+          <li><i class="fas fa-map-pin"></i> Khreschatyk (Khymera Building, Maidan Nezalezhnosti)</li>
+          <li><i class="fas fa-map-pin"></i> Zoloti Vorota (Golden Gates)</li>
+          <li><i class="fas fa-map-pin"></i> Sophiivskiy Sobor (Sophiivska Cathedral and Volodymirskiy Park)</li>
+          <li><i class="fas fa-map-pin"></i> Andriivska Tserkva(Andriivska Chruch and Andriivskiy Uzviz)</li>
+          <li><i class="fas fa-map-pin"></i> Podil (Museums and monuments)</li>
+          <li><i class="fas fa-map-pin"></i> Tarasa Shevchenka Street</li>
+          <li><i class="fas fa-map-pin"></i> Petrivka</li>
+          <li><i class="fas fa-map-pin"></i> Obolon</li>
+          <li><i class="fas fa-map-pin"></i> Natalka Park, Dnipro river</li>
+        </ul>
       </div>
-      <img src="../assets/images/natalka-right1.jpg">
-    </div> 
+      <div id="park-image">
+        <img src="../assets/images/natalka-right1.jpg">
+      </div>
+    </div>
   </div>
   <div class="clear-both" id="times">
     <h2>Meeting Times</h2>
@@ -75,7 +79,7 @@
       <label for="lname">Last Name:</label>
       <input type="text" name="last-name" id="lname" placeholder="Last Name" required>
       <label for="phone-number" class="white-text">Phone Number:</label>
-      <input type="tel" name="phone-number" id="phone-number" placeholder="Telephone Number"required>
+      <input type="tel" name="phone-number" id="phone-number" placeholder="Telephone Number" required>
       <label for="email" class="white-text">Email Address:</label>
       <input type="email" name="email-address" id="email" placeholder="Email Address" required>
       <input type="submit" value="Register for Tour" id="submit">

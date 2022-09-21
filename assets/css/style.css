@@ -92,6 +92,9 @@ h2 {
     padding-top:20px;
     width:100%;
     padding-right:30px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
   }
   #routes-list{
     font-size:130%;
@@ -102,13 +105,17 @@ h2 {
   }
   img{
     height:350px;
-    float:right;
     padding-right:45px;
+    max-width:100%;
+    object-fit:cover;
   }
   #float-left{
-    float:left;
-    width:35%;
+    width:100%;
   }
+  #park-image{
+    flex-basis:100%;
+  }
+
   #times{
     padding-top:10px;
     text-align:center;
@@ -203,11 +210,6 @@ h2 {
     width:100%;
   }
   @media screen and (max-width:1000px){
-    #about-us{
-      font-size:30px;
-      padding:10px;
-      padding-top:15px;
-    }
     #navigation{
       clear:both;
       padding-left:10px;
@@ -215,6 +217,23 @@ h2 {
     #navigation li{
       clear:right;
       float:left;
+    }
+    #about-us{
+      font-size:3vw;
+      padding:10px;
+      padding-top:50px;
+    }
+    #navigation li{
+      font-size:3vw;
+    }
+    #monday-left{
+      width:100%;
+    }
+    #wednesday-center{
+      width:100%;
+    }
+    #friday-right{
+      width:100%;
     }
   }
  
