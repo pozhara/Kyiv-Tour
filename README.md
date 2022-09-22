@@ -4,9 +4,10 @@ Kyiv Tour is a site that gives an opportunity to sightsee and hear the history o
 2.) Existing features
 -navigation bar:
 Includes links to Home, Tour, Meet Up Time, Sign Up and Contact Us. This section will allow the user to easily navigate from one section to another.
-
+![Alt text](relative/path/to/header.jpg?raw=true "Header")
 -Home section
 It's a photograph of Khreschatyk, Kyiv's center. The section introduces people to the company. 
+![What is this](about-us.jpg)
 -Tour's route
 It's a section with tour's route so a person knows what to expect. This section also includes an image of the final destination, Natalka park. 
 -Meet Up 
@@ -26,7 +27,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 -In the GitHub repository, navigate to the Settings tab
 -From the source section drop-down menu, select the Master Branch
 -Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment
-The live link can be found here- 
+The live link can be found here- https://pozhara.github.io/Kyiv-Tour/
 
 5.) Credits
 -Content:
