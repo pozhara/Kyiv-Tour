@@ -241,3 +241,41 @@ h2 {
       width:100%;
     }
   }
+  /*Styling webpage for screens max-width:750px*/
+  @media screen and (max-width:750px){
+    img{
+      clear:both;
+      float:left;
+      padding-left:0px;
+    }
+    #about-us{
+      font-size:20px;
+    }
+    #routes{
+      padding-left:15px;
+      padding-top:20px;
+      width:100%;
+      padding-right:30px;
+      display:inline;
+    }
+    img{
+      height:350px;
+      padding-right:45px;
+      max-width:100%;
+      object-fit:cover;
+      display:inline;
+    }
+    #float-left{
+      width:100%;
+    }
+    #park-image{
+      display:inline;
+    }
+  }
+  /*Styling webpage for screens max-width:400px*/
+  @media screen and (max-width:400px){
+    #about-us{
+      font-size:15px;
+      padding-top:40px;
+    }
+  }
