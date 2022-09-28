@@ -272,7 +272,7 @@ h2 {
       display:inline;
     }
   }
-  /*Styling webpage for screens max-width:400px*/
+  /*Styling webpage for screens max-width:400px*/ 
   @media screen and (max-width:400px){
     #about-us{
       font-size:15px;
