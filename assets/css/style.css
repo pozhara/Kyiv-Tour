@@ -81,6 +81,8 @@ h2 {
     padding:10px;
     padding-top:40px;
     color:white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
   }
   /*Styling route destinations and image of the final destination*/
   #routes-list li{
@@ -190,39 +192,34 @@ h2 {
   /*Styling footer*/
   #contact-us a{
     text-decoration:none;
-    color:white;
+    color:black;
   }
   #contact-us a:hover{
     text-decoration:underline;
   }
   #contact-us{
     text-align:center;
-    background-color:black;
+    background-color:bisque;
     width:100%;
   }
   #contact-us li{
     display:inline-block;
     font-size:20px;
-    margin-left:10px;
-  }
-  #height{
-    height:10px;
-    width:100%;
+    margin-left:20px;
   }
   /*Styling webpage for screens max-width:1000px*/
   @media screen and (max-width:1000px){
     #navigation{
-      clear:both;
       padding-left:10px;
     }
-    #navigation li{
-      clear:right;
-      float:left;
+    #navigation ul{
+      float:right;
     }
     #about-us{
       font-size:3vw;
       padding:10px;
       padding-top:50px;
+      -webkit-text-stroke-width: 1.5px;
     }
     #navigation li{
       font-size:3vw;
@@ -235,14 +232,17 @@ h2 {
     }
     #friday-right{
       width:100%;
+      margin-bottom:15px;
     }
-    #break{
-      height:10px;
-      width:100%;
+    form{
+      font-size:30px;
     }
   }
   /*Styling webpage for screens max-width:750px*/
   @media screen and (max-width:750px){
+    #navigation li{
+      font-size:20px;
+    }
     img{
       clear:both;
       float:left;
@@ -250,6 +250,7 @@ h2 {
     }
     #about-us{
       font-size:20px;
+      -webkit-text-stroke-width: 1px;
     }
     #routes{
       padding-left:15px;
@@ -257,6 +258,10 @@ h2 {
       width:100%;
       padding-right:30px;
       display:inline;
+    }
+    #big-route{
+      padding-left:15px;
+      padding-right:15px;
     }
     img{
       height:350px;
@@ -271,11 +276,42 @@ h2 {
     #park-image{
       display:inline;
     }
+    form{
+      font-size:25px;
+    }
+  }
+  @media screen and (max-width:540px){
+    #navigation li{
+      font-size:15px;
+      margin-right:14px;
+    }
+    #about-us{
+      -webkit-text-stroke-width: 0px;
+    }
+    form label{
+      font-size:20px;
+    }
+    form{
+      padding-left:0px;
+    }
   }
   /*Styling webpage for screens max-width:400px*/ 
   @media screen and (max-width:400px){
     #about-us{
       font-size:15px;
       padding-top:40px;
+    }
+    #navigation li{
+      font-size:13px;
+      margin-right:10px;
+    }
+  }
+  @media screen and (max-width:340px){
+    #navigation li{
+      font-size:13px;
+      margin-right:7px;
+    }
+    #logo{
+      font-size:130%;
     }
   }
