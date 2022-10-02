@@ -250,6 +250,33 @@ input[type=email] {
   text-align: center;
   font-size: 30px;
 }
+#thankyou-footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+#thankyou-footer a {
+  text-decoration: none;
+  color: black;
+}
+
+#thankyou-footer a:hover {
+  text-decoration: underline;
+}
+
+#thankyou-footer {
+  text-align: center;
+  background-color: bisque;
+  width: 100%;
+  
+}
+
+#thankyou-footer li {
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 20px;
+}
 
 /*Styling webpage for screens max-width:1000px*/
 @media screen and (max-width:1000px) {

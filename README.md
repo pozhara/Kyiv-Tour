@@ -1,4 +1,5 @@
 # Kyiv Tour
+![Photo of different screen sizes](assets/images/different-screens.png)
 Kyiv Tour is a site that gives an opportunity to sightsee and hear the history of places in Kyiv. The site will be targeted toward tourists and those city residents who want to learn more about their city. 
 
 # Existing features
