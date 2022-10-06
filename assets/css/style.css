@@ -234,7 +234,6 @@ input[type=email] {
   text-align: center;
   background-color: bisque;
   width: 100%;
-  
 }
 
 #contact-us li {
@@ -312,8 +311,8 @@ input[type=email] {
     margin-bottom: 15px;
   }
 
-  form {
-    font-size: 30px;
+  form{
+    max-width:60%;
   }
 }
 
@@ -363,8 +362,8 @@ input[type=email] {
     display: inline;
   }
 
-  form {
-    font-size: 25px;
+  form{
+    max-width:60%;
   }
 }
 
@@ -382,8 +381,8 @@ input[type=email] {
     font-size: 20px;
   }
 
-  form {
-    padding-left: 0px;
+  form{
+    max-width:60%;
   }
 }
 
@@ -398,6 +397,9 @@ input[type=email] {
     font-size: 13px;
     margin-right: 10px;
   }
+  form{
+    max-width:60%;
+  }
 }
 
 @media screen and (max-width:340px) {
@@ -408,5 +410,8 @@ input[type=email] {
 
   #logo {
     font-size: 130%;
+  }
+  form{
+    max-width:60%;
   }
 }
