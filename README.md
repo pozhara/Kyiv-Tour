@@ -5,7 +5,7 @@ Kyiv Tour is a site that gives an opportunity to sightsee and hear the history o
 # Existing features
 ## Navigation bar:
 Includes links to Home, Tour, Meet Up Time, Sign Up and Contact Us. This section will allow the user to easily navigate from one section to another.
-![Header image](assets/images/header.jpg)
+![Header image](assets/images/header1.jpg)
 ## Home section
 It's a photograph of Khreschatyk, Kyiv's center. The section introduces people to the company. 
 ![About us section](assets/images/about-us.jpg)
@@ -14,13 +14,13 @@ It's a section with tour's route so a person knows what to expect. This section 
 ![Tour's route section](assets/images/route.jpg)
 ## Meet Up 
 This section provides a user with start times of the tour.
-![Meet up times section](assets/images/meetup-times.jpg)
+![Meet up times section](assets/images/meetuptimes.png)
 ## Register for tour
 This section gives an opportunity to sign up for tour.
 ![Sign up form](assets/images/sign-up-form.jpg)
 ## The Footer
 This section provides a user with ways to contact the company. Every link opens in a new tab.
-![Footer section](assets/images/footer.jpg) 
+![Footer section](assets/images/footer1.png) 
 
 # Testing
 The site looks good on different screens. Images aren't distorted, font size depends on the screen width and meet up times aren't on one line.
