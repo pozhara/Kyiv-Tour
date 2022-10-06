@@ -49,10 +49,14 @@ Instructions on how to put registration form on an image was taken from Geeksfor
 
 The code for vertically aligning text next to the image was taken from w3docs.com (url: https://www.w3docs.com/snippets/css/how-to-vertically-align-text-next-to-an-image.html)
 
+How to fix the right-side white space problem was found in Harshit Tewari's YouTube video (url: https://www.youtube.com/watch?v=OASSKoiCfqY)
+
+The code to outline text was taken from codescope (url: https://www.codesdope.com/blog/article/adding-outline-to-text-using-css/)
+
 -Media:
 
 Khreschatyk image was taken from Hotel Khreschatyk Kiev webpage (url: https://www.hotel-khreschatyk.kiev.ua/en/about-hotel/hotel-photo-gallery)
 
-Natalka park image was taken from IRecommend.ru webpage (url: https://irecommend.ru/content/park-natalka-ne-znaete-gde-provesti-vykhodnoi-smelo-idite-v-park-natalka)
+Natalka park image was taken from depositphotos.com webpage (url: https://ru.depositphotos.com/stock-photos/natalka-park.html)
 
 Kyiv image was taken from bestkyivguide.com (url: https://www.bestkievguide.com/kiev-guide-2/kiev-sightseeng/podil-the-lower-town/)
